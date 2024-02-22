@@ -1,0 +1,25 @@
+.Todoitems {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.Todoitems-container {
+    display: flex;
+}
+
+.Todoitems-text {
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+}
+
+.Todoitems-crossicon {
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.line-through {
+    text-decoration: line-through solid rgb(21, 9, 9);
+}
